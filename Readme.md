@@ -393,7 +393,7 @@ print(f"{name}的年龄是{age}岁！")    #小明的年龄是20岁！
 ```python
 >>> def print_everything(*args):
         for count, thing in enumerate(args):
-...         print(f'{count}. {thing}'
+...         print(f'{count}. {thing}')
 ...
 >>> print_everything('apple', 'banana', 'cabbage')
 0. apple
